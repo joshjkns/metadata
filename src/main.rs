@@ -291,7 +291,7 @@ impl MyApp {
             .extension()
             .and_then(|e| e.to_str())
             .unwrap_or("");
-        let ext_len = ext.len() + 1; // for the dot
+        let ext_len = ext.len() + 1;
         if max_len > ext_len + 3 {
             let prefix = &name[..max_len - ext_len - 3];
             format!("{}...{}", prefix, ext)
