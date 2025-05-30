@@ -10,6 +10,7 @@ Rust (and cargo).
 ## Installation
 To run the project, clone the repository and execute the following command in your terminal:
 ```bash
+cd metadata
 cargo build
 ```
 
