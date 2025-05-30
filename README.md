@@ -2,6 +2,8 @@
 A simple cross-platform metadata editor made in rust, using egui, with rust-id3 and symphonia for audio metadata.
 Currently only allows mp3 files.
 
+First project in rust, just getting to know the language.
+
 ## Prerequisites
 Rust (and cargo).
 
